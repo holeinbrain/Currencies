@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		2C76BCA02571301800701880 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C76BC9F2571301800701880 /* AppDelegate.swift */; };
 		2C76BCA22571301800701880 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C76BCA12571301800701880 /* SceneDelegate.swift */; };
-		2C76BCA42571301800701880 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C76BCA32571301800701880 /* ViewController.swift */; };
+		2C76BCA42571301800701880 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C76BCA32571301800701880 /* FirstViewController.swift */; };
 		2C76BCA72571301800701880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C76BCA52571301800701880 /* Main.storyboard */; };
 		2C76BCAA2571301800701880 /* Currencies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C76BCA82571301800701880 /* Currencies.xcdatamodeld */; };
 		2C76BCAC2571301E00701880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C76BCAB2571301E00701880 /* Assets.xcassets */; };
 		2C76BCAF2571301E00701880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C76BCAD2571301E00701880 /* LaunchScreen.storyboard */; };
 		2C76BCBA2571301E00701880 /* CurrenciesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C76BCB92571301E00701880 /* CurrenciesTests.swift */; };
 		2C76BCC52571301E00701880 /* CurrenciesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C76BCC42571301E00701880 /* CurrenciesUITests.swift */; };
+		2C76BCD62571304E00701880 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C76BCD52571304E00701880 /* SecondViewController.swift */; };
+		2CC8B02925730723006B13AD /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC8B02825730723006B13AD /* Currency.swift */; };
+		2CFDF6BB2573E32A00582077 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFDF6BA2573E32A00582077 /* Provider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,7 @@
 		2C76BC9C2571301800701880 /* Currencies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Currencies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C76BC9F2571301800701880 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C76BCA12571301800701880 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2C76BCA32571301800701880 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C76BCA32571301800701880 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		2C76BCA62571301800701880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C76BCA92571301800701880 /* Currencies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Currencies.xcdatamodel; sourceTree = "<group>"; };
 		2C76BCAB2571301E00701880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +54,9 @@
 		2C76BCC02571301E00701880 /* CurrenciesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrenciesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C76BCC42571301E00701880 /* CurrenciesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesUITests.swift; sourceTree = "<group>"; };
 		2C76BCC62571301E00701880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C76BCD52571304E00701880 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2CC8B02825730723006B13AD /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		2CFDF6BA2573E32A00582077 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +109,12 @@
 			children = (
 				2C76BC9F2571301800701880 /* AppDelegate.swift */,
 				2C76BCA12571301800701880 /* SceneDelegate.swift */,
-				2C76BCA32571301800701880 /* ViewController.swift */,
-				2C76BCA52571301800701880 /* Main.storyboard */,
+				2C76BCDD2571305800701880 /* View */,
 				2C76BCAB2571301E00701880 /* Assets.xcassets */,
-				2C76BCAD2571301E00701880 /* LaunchScreen.storyboard */,
 				2C76BCB02571301E00701880 /* Info.plist */,
 				2C76BCA82571301800701880 /* Currencies.xcdatamodeld */,
+				2CFDF6BA2573E32A00582077 /* Provider.swift */,
+				2CC8B02825730723006B13AD /* Currency.swift */,
 			);
 			path = Currencies;
 			sourceTree = "<group>";
@@ -129,6 +135,17 @@
 				2C76BCC62571301E00701880 /* Info.plist */,
 			);
 			path = CurrenciesUITests;
+			sourceTree = "<group>";
+		};
+		2C76BCDD2571305800701880 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C76BCA32571301800701880 /* FirstViewController.swift */,
+				2C76BCD52571304E00701880 /* SecondViewController.swift */,
+				2C76BCA52571301800701880 /* Main.storyboard */,
+				2C76BCAD2571301E00701880 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C76BCA42571301800701880 /* ViewController.swift in Sources */,
+				2CC8B02925730723006B13AD /* Currency.swift in Sources */,
+				2C76BCA42571301800701880 /* FirstViewController.swift in Sources */,
+				2CFDF6BB2573E32A00582077 /* Provider.swift in Sources */,
 				2C76BCA02571301800701880 /* AppDelegate.swift in Sources */,
 				2C76BCAA2571301800701880 /* Currencies.xcdatamodeld in Sources */,
+				2C76BCD62571304E00701880 /* SecondViewController.swift in Sources */,
 				2C76BCA22571301800701880 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
